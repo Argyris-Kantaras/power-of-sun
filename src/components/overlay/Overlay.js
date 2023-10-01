@@ -9,7 +9,7 @@ function Overlay(props) {
           : { transition: "0.4s", transform: "translateY(0%)" }
       }
       onClick={(e) =>
-        e.target.className === "Overlay_overlay__mG6qU"
+        e.target.className === "Overlay_overlay__r5dtc"
           ? props.setOverlayDisplay("hidden") + props.setItemId
             ? props.setItemId("")
             : null
