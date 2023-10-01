@@ -19,7 +19,7 @@ function App() {
         e.target.className === "CartProduct_cartItem__oLLDo" ||
         e.target.className === "CartProduct_itemName__aCXNX" ||
         e.target.className === "CartProduct_increase__cB0uU" ||
-        e.target.className === "CartProduct_decrease__x1dCX-" ||
+        e.target.className === "CartProduct_decrease__x1dCX" ||
         e.target.className === "CartProduct_itemImg__MPpAd" ||
         e.target.className === "CartProduct_qtySection__yi8zd" ||
         e.target.className === "Cart_totalAmount__kT86S" ||
