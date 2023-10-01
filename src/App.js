@@ -15,7 +15,7 @@ function App() {
     <div
       onClick={(e) => {
         e.target.className === "Cart_cart__kUtiw" ||
-        e.target.className === "Header_cartImg__x2W+t" ||
+        e.target.className === "Header_cartImg__GYJLj" ||
         e.target.className === "CartProduct_cartItem__1vtEG" ||
         e.target.className === "CartProduct_increase__r4Kps" ||
         e.target.className === "CartProduct_decrease__AE7M-" ||
