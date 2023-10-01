@@ -1,0 +1,44 @@
+.footer {
+  background-color: antiquewhite;
+  color: black;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-top: 2px solid orangered;
+}
+
+.aboutUs {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: orangered;
+}
+
+.sectionContacts {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: orangered;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.footer li {
+  margin: 1%;
+}
+.footer span {
+  font-size: 12px;
+  color: orangered;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.aboutUsPar {
+  width: 80%;
+  position: relative;
+  left: 10%;
+}

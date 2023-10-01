@@ -1,0 +1,17 @@
+.removeBtn {
+  position: relative;
+  left: 40%;
+  font-size: 20px;
+  width: 30px;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: red;
+  border: solid 1px red;
+  color: white;
+  cursor: pointer;
+}
+
+.removeBtn:hover {
+  color: red;
+  background-color: white;
+}

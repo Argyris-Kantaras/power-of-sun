@@ -1,0 +1,33 @@
+form input {
+  width: 30%;
+  padding: 10px;
+  border-radius: 20px;
+  border: solid 2px rgba(0, 0, 0, 0.3);
+  border-bottom: none;
+}
+
+form input:focus {
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+form button {
+  padding: 8px;
+  margin-left: 1%;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+form button:active {
+  background-color: rgb(255, 111, 0);
+  color: black;
+}
+
+form button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.2s;
+}

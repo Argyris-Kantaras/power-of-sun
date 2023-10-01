@@ -1,0 +1,48 @@
+.mainImg {
+  width: 300px;
+  height: 250px;
+}
+
+.systemsContainer {
+  display: inline-block;
+  margin: 5%;
+  padding: 3%;
+  transition: 0.4s;
+  border-radius: 5%;
+  border: 1px inset orangered;
+  color: orangered;
+}
+.systemsContainer:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 15px 10px rgb(255, 111, 0);
+}
+
+.solarSys {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 80%;
+  position: fixed;
+  left: 5%;
+  padding: 10% 0% 10% 0%;
+  top: 10%;
+  transition: 0.5s;
+  color: white;
+  border-radius: 2%;
+  margin: 0 5% 0 5%;
+  display: none;
+}
+
+.allSystem {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+
+.allSystem:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 5px 5px 15px rgb(255, 111, 0);
+}
+
+.img {
+  width: 50%;
+}

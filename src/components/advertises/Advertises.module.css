@@ -1,0 +1,80 @@
+.fullBackgroundImg {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2% 0% 2% 0%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 5%;
+  color: white;
+}
+
+.fullBackgroundImg img {
+  position: relative;
+  top: 15%;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 15px 5px rgb(255, 111, 0);
+}
+
+.fullBackgroundImg h1 {
+  position: relative;
+  font-size: 25px;
+  width: 99%;
+  top: 30%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.whiteBackground {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 5%;
+  color: orangered;
+}
+
+.whiteBackground h1 {
+  position: relative;
+  font-size: 35px;
+  width: 99%;
+  top: 30%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.whiteBackground img {
+  position: relative;
+  margin-top: 5%;
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 15px 10px rgb(255, 111, 0);
+}
+
+.lithiumBatt {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 5%;
+  color: orangered;
+}
+
+.lithiumBatt h1 {
+  position: relative;
+  font-size: 35px;
+  width: 99%;
+  top: 30%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lithiumBatt img {
+  position: relative;
+  top: 5%;
+  width: 450px;
+  height: 450px;
+  box-shadow: 5px 5px 15px 10px rgb(255, 111, 0);
+}

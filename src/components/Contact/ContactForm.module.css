@@ -1,0 +1,53 @@
+.contactForm {
+  position: relative;
+  min-height: 750px;
+  text-align: center;
+}
+.inputsContainer {
+  width: 70%;
+  position: relative;
+  left: 15%;
+}
+
+.contactForm input {
+  margin: 2%;
+  /* display: block; */
+  padding: 10px;
+  border-radius: 20px;
+  border: solid 2px rgba(0, 0, 0, 0.3);
+  border-bottom: none;
+}
+
+.contactForm input:focus {
+  outline: none;
+  background-color: rgba(255, 111, 0, 0.6);
+}
+
+.contactForm textarea {
+  width: 90%;
+  height: 200px;
+  margin-top: 2%;
+  resize: none;
+}
+
+.sendEnquiryBtn {
+  background-color: orangered;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  width: 150px;
+  padding: 20px;
+  border-radius: 50%;
+  left: 50%;
+  margin-top: 10%;
+  margin-left: -95px;
+  cursor: pointer;
+  position: relative;
+  transition: 0.3s;
+}
+
+.sendEnquiryBtn:hover {
+  background-color: white;
+  color: orangered;
+  border: solid 1px orangered;
+}

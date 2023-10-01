@@ -1,0 +1,43 @@
+.systemDetails {
+  background-color: rgb(0, 0, 0, 0.8);
+  position: relative;
+  top: 10%;
+  width: 80%;
+  left: 5%;
+  padding: 5%;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.sysImg {
+  width: 100%;
+}
+
+.leftSide {
+  position: relative;
+}
+
+.rightSide {
+  padding: 0% 10% 0% 10%;
+}
+
+.rightSide p {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.price {
+  font-size: 35px;
+  color: orangered;
+  position: relative;
+  margin-top: 10%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .systemDetails {
+    display: block;
+  }
+}
