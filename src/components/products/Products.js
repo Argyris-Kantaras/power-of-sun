@@ -13,42 +13,24 @@ function Products(props) {
     <div className={styles.products}>
       {props.products.length > 0
         ? props.products.map((item, i) => {
-            if (item.id.includes(props.item)) {
-              return (
-                <div
-                  onClick={() => props.setItemId(item.id)}
-                  key={item.id}
-                  className={styles.item}
-                >
-                  <div className={styles.overlay}></div>
-                  <div className={styles.itemDetails}>
-                    <h3>{item.product}</h3>
-                    <img src={item.image} />
+            return (
+              <div
+                onClick={() => props.setItemId(item.id)}
+                key={item.id}
+                className={styles.item}
+              >
+                <div className={styles.overlay}></div>
+                <div className={styles.itemDetails}>
+                  <img src={item.image} />
+                  <div className={styles.bottomPart}>
+                    <h4 className={styles.itemTitle}>{item.product}</h4>
                     <p>
                       {Math.ceil(item.price * exchanger)} {currency}
                     </p>
                   </div>
                 </div>
-              );
-            }
-            if (props.item === "all") {
-              return (
-                <div
-                  onClick={() => props.setItemId(item.id)}
-                  key={item.id}
-                  className={styles.item}
-                >
-                  <div className={styles.overlay}></div>
-                  <div className={styles.itemDetails}>
-                    <h3>{item.product}</h3>
-                    <img src={item.image} />
-                    <p>
-                      {Math.ceil(item.price * exchanger)} {currency}
-                    </p>
-                  </div>
-                </div>
-              );
-            }
+              </div>
+            );
           })
         : "There was a problem on displaying the products"}
     </div>

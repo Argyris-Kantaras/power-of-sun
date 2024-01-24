@@ -1,0 +1,44 @@
+.img {
+  width: 50%;
+}
+
+.quoteSection {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(255, 170, 0);
+  margin: 5% 0% 5% 0%;
+}
+
+.quoteForm {
+  width: 50%;
+  position: relative;
+  height: 100%;
+}
+
+.quoteInput {
+  margin: 35px;
+  position: relative;
+}
+
+.commentArea {
+  width: 80%;
+  position: relative;
+  resize: none;
+  height: 300px;
+}
+
+.submitBtn {
+  width: 30%;
+  background-color: rgb(255, 170, 0);
+  border: none;
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+.submitBtn:hover {
+  border: 1px solid;
+  color: rgb(29, 54, 44);
+}

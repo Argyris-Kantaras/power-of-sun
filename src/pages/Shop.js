@@ -56,13 +56,9 @@ function Shop(props) {
       });
   }, []);
   return (
-    <div style={{ backgroundColor: "rgb(0, 0, 36)" }}>
+    <div>
       <Header setShowItems={props.setShowItems} position={header} />
-      <Products
-        products={products}
-        item={props.showItems}
-        setItemId={setItemId}
-      />
+      <Products products={products} item={"all"} setItemId={setItemId} />
       <ItemDetails products={products} itemId={itemId} setItemId={setItemId} />
       <Footer />
     </div>

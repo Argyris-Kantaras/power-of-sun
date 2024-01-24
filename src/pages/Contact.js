@@ -5,7 +5,7 @@ import Header from "../components/header/Header";
 
 function Contact(props) {
   return (
-    <div style={{ backgroundColor: "rgb(0, 0, 36)" }}>
+    <div>
       <Header setShowItems={props.setShowItems} />
       <ContactForm />
       <Footer />

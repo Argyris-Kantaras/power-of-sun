@@ -1,0 +1,36 @@
+.decisionSection {
+  background-color: rgb(29, 54, 44);
+  display: flex;
+  padding: 20px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.handShake {
+  width: 50%;
+}
+.imgContainer h3 {
+  color: yellow;
+}
+
+.topDecisionsPart {
+  position: relative;
+  left: 10%;
+}
+
+.topDecisionsPart p {
+  width: 90%;
+}
+
+.icons {
+  width: 150px;
+}
+
+.coverDiv {
+  text-align: center;
+}

@@ -1,44 +1,59 @@
 .footer {
-  background-color: antiquewhite;
+  display: flex;
+  /* flex-wrap: wrap; */
+  background-color: rgb(29, 54, 44);
   color: black;
-  text-align: center;
+  text-align: left;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border-top: 2px solid orangered;
+  color: white;
 }
 
 .aboutUs {
-  font-size: 20px;
+  /* font-size: 20px; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
-  color: orangered;
+  color: white;
+  width: 50%;
+}
+.aboutUs span {
+  color: yellow;
+  position: relative;
+  left: 5%;
+}
+
+.footerLogo {
+  width: 60px;
+  position: relative;
+  left: 5%;
 }
 
 .sectionContacts {
-  font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
-  color: orangered;
+  width: 50%;
 }
 
 .footer ul {
-  display: flex;
-  justify-content: center;
   list-style: none;
 }
 .footer li {
-  margin: 1%;
+  /* margin: 1%; */
+  color: yellow;
 }
-.footer span {
-  font-size: 12px;
-  color: orangered;
+.footer li span {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: bolder;
 }
+
 .footer a {
   text-decoration: none;
-  color: black;
+  color: yellow;
 }
 
 .aboutUsPar {
-  width: 80%;
+  width: 60%;
   position: relative;
-  left: 10%;
+  font-size: 15px;
+  position: relative;
+  left: 5%;
 }

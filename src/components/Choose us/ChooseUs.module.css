@@ -1,0 +1,40 @@
+.chooseUs {
+  display: flex;
+  background-color: rgb(29, 54, 44);
+  color: rgba(255, 255, 255, 0.8);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.thumbsUp {
+  width: 100%;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+.reasons {
+  /* width: 100%; */
+  text-align: left;
+}
+
+.leftSection {
+  width: 50%;
+}
+
+.leftSection h1 {
+  margin-left: 10%;
+  border-bottom: 1px yellow solid;
+  width: 30%;
+}
+.details {
+  display: flex;
+  align-items: center;
+  margin: 25px 0px 25px 0px;
+}
+
+.moreDetails {
+  margin-left: 15px;
+}

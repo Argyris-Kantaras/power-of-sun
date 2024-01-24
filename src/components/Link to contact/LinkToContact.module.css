@@ -8,7 +8,7 @@
   /* margin-top: 45%; */
   top: 20%;
   left: 50%;
-  background-color: orangered;
+  background-color: rgb(42, 77, 63);
   border-radius: 50%;
   font-size: 20px;
   font-weight: bold;
@@ -20,6 +20,5 @@
 
 .orangeButton:hover {
   background-color: white;
-  color: orangered;
-  box-shadow: 1px 2px 5px orangered;
+  color: black;
 }

@@ -2,8 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import styles from "./CartProduct.module.css";
 import { useSelector } from "react-redux";
 import RemoveItem from "../cart/remove item/RemoveItem";
-// import TotalAmount from "../cart/total amount/TotalAmount";
-// import manipulateQty from "../cart/total amount/TotalAmount";
 
 function CartProduct(props) {
   const [quantity, setQuantity] = useState(1);
@@ -43,11 +41,6 @@ function CartProduct(props) {
 
   return (
     <div className={styles.cartItem} key={props.item.id}>
-      {/* <TotalAmount
-        action={action}
-        quantity={quantity}
-        setQuantity={setQuantity}
-      /> */}
       <h6 className={styles.itemName}>
         {props.item.product}
         {props.item.type} {props.item.system}

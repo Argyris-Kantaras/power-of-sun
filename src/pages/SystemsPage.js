@@ -41,7 +41,7 @@ function SystemsPage(props) {
   }, []);
 
   return (
-    <div style={{ backgroundColor: "rgb(0, 0, 36)" }}>
+    <div>
       <Header setShowItems={props.setShowItems} />
       <div
         style={{

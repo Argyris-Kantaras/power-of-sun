@@ -2,12 +2,11 @@
   width: 22px;
   transform: rotate(-90deg);
   display: inline-block;
-  background-color: orangered;
+  background-color: rgb(29, 54, 44);
   margin: 10px;
   padding: 2%;
   border-radius: 50%;
   cursor: pointer;
-  border: 1px solid orangered;
   font-size: 20px;
   font-weight: bold;
   color: white;
@@ -16,20 +15,18 @@
   width: 20px;
   transform: rotate(90deg);
   display: inline-block;
-  background-color: orangered;
+  background-color: rgb(29, 54, 44);
   margin: 10px;
   padding: 2%;
   border-radius: 50%;
   cursor: pointer;
-  border: 1px solid orangered;
   font-size: 20px;
   font-weight: bold;
   color: white;
 }
 
 .increase:hover {
-  background-color: white;
-  color: orangered;
+  color: yellow;
 }
 
 .currentQty {
@@ -37,8 +34,7 @@
 }
 
 .decrease:hover {
-  background-color: white;
-  color: orangered;
+  color: yellow;
 }
 
 .cartItem {
@@ -46,7 +42,6 @@
 
 .itemImg {
   width: 80px;
-  border-radius: 20%;
   display: inline-block;
 }
 
@@ -56,7 +51,7 @@
 }
 
 .itemName {
-  color: orangered;
+  color: yellow;
   font-size: 12px;
   margin: 10px;
 }

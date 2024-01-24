@@ -1,63 +1,54 @@
 import styles from "./Advertises.module.css";
-import solarImg from "../../images/Conventional-solar-panel.jpg";
+import hands from "../../images/logo2.jpg";
 import homeAlone from "../../images/home-alone.jpg";
-import inverter from "../../images/inverter.png";
-import microInverter from "../../images/micro inverter.jpg";
-import lithiumBatt from "../../images/lithium battery.png";
 import solarPanelBack from "../../images/solar-panels.jpg";
 import backgroundImg from "../../images/sunflowers-and-sun.jpg";
 import backgroundImg2 from "../../images/field-solars.jpg";
-import LinkToProducts from "../link to all products/LinkToProducts";
+import installationImg from "../../images/install.jpg";
+import homeImg from "../../images/solar_panels_sun_header.jpg";
+import Technicians from "../Technicians/Technicians";
+import Suggestions from "../suggestions/Suggestions";
+import ChooseUs from "../Choose us/ChooseUs";
+import GetQuote from "../get quote/GetQuote";
 
 function Advertises() {
   return (
     <div>
-      {/**/}
-
-      <div
-        style={{ backgroundImage: `url(${solarPanelBack})` }}
-        className={styles.fullBackgroundImg}
-      >
-        <img alt="" src={solarImg} />
+      <img alt="" className={styles.homeImg} src={homeImg} />
+      <div className={styles.topWord}>
+        <h1>Solar Power</h1>
+        <p>WHY WASTE IT ???</p>
+      </div>
+      <div className={styles.companyPluses}>
         <div>
-          <h1>Amazing solar panels!</h1>
-          <LinkToProducts link="/products" />
+          <img className={styles.img} alt="" src={installationImg} />
+          <h3 className={styles.title}>Easy Installation</h3>
+        </div>
+        <div>
+          <img className={styles.img} alt="" src={solarPanelBack} />
+          <h3 className={styles.title}>Great Material</h3>
+        </div>
+        <div>
+          <img className={styles.img} alt="" src={backgroundImg2} />
+          <h3 className={styles.title}>Install Anywhere</h3>
+        </div>
+        <div>
+          <img className={styles.img} alt="" src={backgroundImg} />
+          <h3 className={styles.title}>Protect Your Area</h3>
+        </div>
+        <div>
+          <img className={styles.img} alt="" src={homeAlone} />
+          <h3 className={styles.title}>Full Supply</h3>
+        </div>
+        <div>
+          <img className={styles.img} alt="" src={hands} />
+          <h3 className={styles.title}>Reduce Global Warm</h3>
         </div>
       </div>
-      <div className={styles.whiteBackground}>
-        <div>
-          <h1>Supply for all house!!</h1>
-          <LinkToProducts link="/systems" />
-        </div>
-        <img alt="" src={homeAlone} />
-      </div>
-      <div
-        style={{ backgroundImage: `url(${backgroundImg})` }}
-        className={styles.fullBackgroundImg}
-      >
-        <img alt="" src={inverter} />
-        <div>
-          <h1>Great and reliable inverters</h1>
-          <LinkToProducts link="/products" />
-        </div>
-      </div>
-      <div className={styles.lithiumBatt}>
-        <div>
-          <h1>Strong lithium batteries</h1>
-          <LinkToProducts link="/products" />
-        </div>
-        <img className={styles.lithiumBatt} alt="" src={lithiumBatt} />
-      </div>
-      <div
-        style={{ backgroundImage: `url(${backgroundImg2})` }}
-        className={styles.fullBackgroundImg}
-      >
-        <img alt="" src={microInverter} />
-        <div>
-          <h1>Also micro inverters...</h1>
-          <LinkToProducts link="/systems" />
-        </div>
-      </div>
+      <Suggestions />
+      <Technicians />
+      <ChooseUs />
+      <GetQuote />
     </div>
   );
 }

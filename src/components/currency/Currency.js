@@ -25,22 +25,22 @@ function Currency() {
     <div className={styles.currencyContainer}>
       <img
         onClick={(e) => changeCurrencyHandler(e.target.id)}
-        id="$"
-        className={styles.currency}
-        src={usaFlag}
-        alt=""
-        style={
-          currency === "$" ? { boxShadow: "1px 1px 5px 1px orangered" } : null
-        }
-      />
-      <img
-        onClick={(e) => changeCurrencyHandler(e.target.id)}
         id="€"
         className={styles.currency}
         src={euFlag}
         alt=""
         style={
-          currency === "€" ? { boxShadow: "1px 1px 5px 1px orangered" } : null
+          currency === "€" ? { boxShadow: "1px 1px 5px 1px yellow" } : null
+        }
+      />
+      <img
+        onClick={(e) => changeCurrencyHandler(e.target.id)}
+        id="$"
+        className={styles.currency}
+        src={usaFlag}
+        alt=""
+        style={
+          currency === "$" ? { boxShadow: "1px 1px 5px 1px yellow" } : null
         }
       />
     </div>

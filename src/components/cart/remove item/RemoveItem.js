@@ -66,7 +66,7 @@ function RemoveItem(props) {
       onClick={() => removeItemHandler(props.item.id)}
       className={styles.removeBtn}
     >
-      {"-"}
+      Remove
     </button>
   );
 }

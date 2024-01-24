@@ -20,7 +20,8 @@
 
 .contactForm input:focus {
   outline: none;
-  background-color: rgba(255, 111, 0, 0.6);
+  background-color: rgb(29, 54, 44);
+  color: white;
 }
 
 .contactForm textarea {
@@ -31,7 +32,8 @@
 }
 
 .sendEnquiryBtn {
-  background-color: orangered;
+  color: white;
+  background-color: rgb(29, 54, 44);
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
@@ -48,6 +50,6 @@
 
 .sendEnquiryBtn:hover {
   background-color: white;
-  color: orangered;
-  border: solid 1px orangered;
+  color: black;
+  border: solid 1px rgb(29, 54, 44);
 }

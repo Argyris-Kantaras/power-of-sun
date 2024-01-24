@@ -19,7 +19,7 @@ function CompleteSystems(props) {
         }}
         style={{ cursor: "pointer" }}
       >
-        <h3>{props.title}</h3>
+        <h3 className={styles.title}>{props.title}</h3>
         <img className={styles.mainImg} src={props.img} />
       </div>
       <Overlay

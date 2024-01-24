@@ -2,21 +2,19 @@ import { useEffect, useState } from "react";
 import Advertises from "../components/advertises/Adverises";
 import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
-import Slide from "../components/slides/Slide";
 
 function Home(props) {
   const [header, setHeader] = useState("block");
   useEffect(() => {
     window.onscroll = () => {
-      // console.log(window.scrollY);
       window.scrollY !== 0 ? setHeader("sticky") : setHeader("block");
     };
   }, []);
   return (
-    <div style={{ backgroundColor: "rgb(0, 0, 36)" }}>
+    // style={{ backgroundColor: "rgb(0, 0, 36)" }}
+    <div>
       <div>
-        <Header setShowItems={props.setShowItems} position={header} />
-        <Slide />
+        <Header setShowItems={props.setShowItems} />
         <Advertises setShowItems={props.setShowItems} />
         <Footer />
       </div>
